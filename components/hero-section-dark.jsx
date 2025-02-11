@@ -184,13 +184,14 @@ const HeroSection = React.forwardRef(({ className, ...props }, ref) => {
               </span>
             </div>
 
-            <button 
-              onClick={() => alert('How to install SolvePro:\n1. Download the APK file\n2. Enable "Install from Unknown Sources" in Settings\n3. Open the APK file\n4. Follow installation prompts\n5. Launch SolvePro!')} 
-              className="mt-4 bg-gray-800 hover:bg-gray-700 text-white rounded-lg p-3 flex items-center justify-center space-x-2 mx-auto transition-all duration-300"
-            >
-              <Smartphone className="w-5 h-5 text-purple-400" />
-              <span className="text-sm font-medium">How to Install on Android</span>
-            </button>
+             <a href="https://youtube.com/shorts/0FcD34ut1As?si=shb0aE7FKxquZChI" target="_blank" rel="noopener noreferrer">
+      <button
+        className="mt-4 bg-gray-800 hover:bg-gray-700 text-white rounded-lg p-3 flex items-center justify-center space-x-2 mx-auto transition-all duration-300"
+      >
+        <Smartphone className="w-5 h-5 text-purple-400" />
+        <span className="text-sm font-medium">How to Install on Android</span>
+      </button>
+    </a>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 text-gray-300">
               <div className="flex flex-col items-center p-4 bg-gray-900/50 rounded-lg">
